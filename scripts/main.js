@@ -15,3 +15,8 @@ console.log(`%c${_myRx.syntaxTesting.useConcatmap().forEach(el => console.log(el
 console.log(`%c${_myRx.syntaxTesting.getLargest().url}`, 'color:pink');
 
 console.log([1,2,3].reduce(function(accumulatedValue, currentValue) { return accumulatedValue + currentValue; }, 10));
+console.log(_myRx.syntaxTesting.getLargest2());
+console.log(_myRx.syntaxTesting.getLargestBoxart());
+
+console.log(_myRx.syntaxTesting.reduseWithIntialVal());
+console.log(_myRx.syntaxTesting.fullRetrieve());
