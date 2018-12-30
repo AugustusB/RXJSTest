@@ -20,3 +20,12 @@ console.log(_myRx.syntaxTesting.getLargestBoxart());
 
 console.log(_myRx.syntaxTesting.reduseWithIntialVal());
 console.log(_myRx.syntaxTesting.fullRetrieve());
+console.log(_myRx.syntaxTesting.theZip());
+
+console.log(JSON.stringify(Array.zip([1,2,3],[4,5,6], function(left, right) { return left + right }))); 
+
+console.log(_myRx.syntaxTesting.retrieve());
+var result = _myRx.syntaxTesting.ArraysToTrees()
+console.log(result);
+console.log(JSON.stringify(result,null,2));
+
